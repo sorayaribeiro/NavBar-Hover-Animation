@@ -46,3 +46,7 @@ body{
 .nav-links li a:hover:before{
     width: 100%;
 }
+.nav-links li.center a:before{
+    left: 50%;
+    transform: translateX(-50%);
+}
